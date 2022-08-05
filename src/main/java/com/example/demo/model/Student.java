@@ -7,7 +7,7 @@ import javax.persistence.Id;
 public class Student {
 
 	@Id
-	private int studentId;
+	private Integer studentId;
 	
 	private String studentName;
 	
@@ -15,11 +15,11 @@ public class Student {
 	
 	private int studentAge;
 
-	public int getStudentId() {
+	public Integer getStudentId() {
 		return studentId;
 	}
 
-	public void setStudentId(int studentId) {
+	public void setStudentId(Integer studentId) {
 		this.studentId = studentId;
 	}
 
@@ -52,6 +52,5 @@ public class Student {
 		return "Student [studentId=" + studentId + ", studentName=" + studentName + ", studentEmail=" + studentEmail
 				+ ", studentAge=" + studentAge + "]";
 	}
-	
-	
+
 }
