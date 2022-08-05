@@ -1,10 +1,10 @@
-package com.example.demo.serviceI;
+package com.example.demo.service;
 
 import java.util.List;
 
 import com.example.demo.model.Student;
 
-public class StudentServiceImpl implements StudentServiceI {
+public class StudentServiceImpl implements StudentServiceI{
 
 	@Override
 	public int addStudent(Student student) {
