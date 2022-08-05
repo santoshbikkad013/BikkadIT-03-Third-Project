@@ -11,6 +11,6 @@ public interface StudentServiceI {
 	
 	public List<Student> getAllStudent();
 	
-	public Student getStudentById();
+	public Student getStudentById(int id);
 	
 }
